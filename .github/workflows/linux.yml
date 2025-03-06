@@ -21,7 +21,9 @@ jobs:
       run: make
 
     - name: List files
-      run: pwd | ls
+      run: ls
+    - name: PWD
+      run: pwd
 
     - name: Download a Build Artifact
       uses: actions/download-artifact@v4
