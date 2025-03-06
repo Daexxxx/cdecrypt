@@ -19,10 +19,11 @@ jobs:
 
     - name: Build
       run: make
-    - name: ls
+
+    - name: List files
       run: ls
+
     - name: Download a Build Artifact
-  		uses: actions/download-artifact@v4
-  		with:
-    		name: cdecrypt # optional
+      uses: actions/download-artifact@v4
+      with:
 
