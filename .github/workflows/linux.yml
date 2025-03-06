@@ -27,4 +27,4 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: cdecrypt
-        path: /home/runner/work/cdecrypt/cdecrypt/cdecrypt
+        path: /home/runner/work/cdecrypt/cdecrypt/
