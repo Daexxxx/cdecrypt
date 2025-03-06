@@ -26,4 +26,5 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v4
       with:
-        name: cdecrypt  # optional, replace with the actual artifact name if needed
+        name: cdecrypt
+        path: /home/runner/work/cdecrypt/cdecrypt/cdecrypt
