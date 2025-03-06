@@ -19,5 +19,6 @@ jobs:
 
     - name: Build
       run: make
+    - name: ls
       run: ls
       
