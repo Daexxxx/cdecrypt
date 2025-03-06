@@ -24,6 +24,5 @@ jobs:
     - name: Download a Build Artifact
   		uses: actions/download-artifact@v4
   		with:
-    # Name of the artifact to download. If unspecified, all artifacts for the run are downloaded.
-    	name: cdecrypt # optional
+    		name: cdecrypt # optional
 
